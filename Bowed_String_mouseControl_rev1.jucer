@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Y9jP56" name="Bowed_String_mouseControl_rev1" projectType="guiapp"
+              useAppConfig="1" addUsingNamespaceToJuceHeader="1" displaySplashScreen="1"
+              jucerFormatVersion="1">
+  <MAINGROUP id="vxrhZM" name="Bowed_String_mouseControl_rev1">
+    <GROUP id="{BC1D80C7-97A4-2261-83AD-1C1C151CBA9A}" name="Source">
+      <FILE id="AArXRx" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="JE9lpm" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="ZnWdFP" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Bowed_String_mouseControl_rev1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Bowed_String_mouseControl_rev1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE_main/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Bowed_String_mouseControl_rev1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Bowed_String_mouseControl_rev1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE_main/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Bowed_String_mouseControl_rev1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Bowed_String_mouseControl_rev1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE_main/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE_main/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
